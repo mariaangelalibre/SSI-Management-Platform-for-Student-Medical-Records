@@ -138,7 +138,7 @@ function App() {
                     <>
                       <p>Given Name</p>
                       <p>Surname</p>
-                      <button className="share-button" onClick={handleShare}>Share</button>
+                      <button className="share-button" onClick={handleShare}>Share Button</button>
                     </>
                   ) : (
                     <>
