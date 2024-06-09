@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('C:\Users\Patricia Andy\Dropbox\My PC (LAPTOP-UTC32T5S)\Desktop\ReactJS\SSI-Management-Platform-for-Student-Medical-Records\clinic-ui\public\white-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #023407;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+}

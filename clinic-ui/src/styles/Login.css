@@ -1,0 +1,64 @@
+.login-background {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('C:\Users\Patricia Andy\Dropbox\My PC (LAPTOP-UTC32T5S)\Desktop\ReactJS\SSI-Management-Platform-for-Student-Medical-Records\clinic-ui\public\white-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+}
+
+.title-login {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.field input[type="submit"] {
+    background-color: #023407;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.field input[type="submit"]:hover {
+    background-color: rgb(219, 219, 219);
+    color: black;
+}

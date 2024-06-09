@@ -1,0 +1,33 @@
+.student-list {
+    text-align: center;
+    margin: 20px;
+}
+
+.student-list h2 {
+    margin-bottom: 20px;
+}
+
+.student-list ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+.student-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.student-list li:hover {
+    background-color: #c7ecec;
+}
+
+.small-student {
+    font-size: 20px; 
+    font-weight: bold;
+}
