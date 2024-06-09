@@ -1,0 +1,61 @@
+/* Health.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.background {
+    background-image: url("C:/Users/Patricia Andy/Dropbox/My PC (LAPTOP-UTC32T5S)/Desktop/ReactJS/wallet/src/bg.jpg"); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 1% 0; /* 1% top and bottom, 0 left and right */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: 2px solid #023407; /* Border added */
+    padding: 10px; /* Padding inside the border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Slight background color for better readability */
+}
+
+.field-health {
+    margin-bottom: 15px;
+    width: 100%; 
+    text-align: left;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.field-health label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.field-health p {
+    margin: 5px 0;
+}
