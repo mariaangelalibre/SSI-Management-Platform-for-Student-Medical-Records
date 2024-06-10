@@ -1,0 +1,75 @@
+.background-req {
+    background-image: url("C:/Users/Patricia Andy/Dropbox/My PC (LAPTOP-UTC32T5S)/Desktop/ReactJS/wallet/src/bg.jpg"); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.notification-box {
+    border: 1px solid #000;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.notification-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.notification-actions button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.notification-actions button.authorize {
+    background-color: #023407; 
+    color: white;
+}
+
+.notification-actions button.authorize:hover {
+    background-color: #c7ecec;
+}
+
+.notification-actions button.deny {
+    background-color: #c52535;
+    color: white;
+}
+
+.notification-actions button.deny:hover {
+    background-color: #c7ecec;
+}
+
+.authorized-box {
+    border: 2px solid #023407;
+    background-color: white; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.requested-info {
+    margin-top: 20px;
+}
+
+.info-box {
+    padding: 10px;
+    background-color: #c7ecec;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}

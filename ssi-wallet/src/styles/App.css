@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.login-container {
+  margin-top: 50px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px;
+}
