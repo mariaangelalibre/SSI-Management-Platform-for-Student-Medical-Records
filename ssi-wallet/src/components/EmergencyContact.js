@@ -8,7 +8,7 @@ const HealthID = () => {
                 <div className="title">Emergency Contact Number</div>
                 <div className="field-health">
                     <label>Name of Emergency Contact Person:</label>
-                    <p>Tubol</p>
+                    <p>Fae Marie</p>
                 </div>
                 <div className="field-health">
                     <label>Contact Number:</label>
